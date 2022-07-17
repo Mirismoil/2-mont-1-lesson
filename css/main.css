@@ -26,6 +26,16 @@
           box-sizing: border-box;
           transition: all 0.4s;
      }
+     body{
+          margin: 0;
+          padding: 0;
+          font-family: 'Rubik', sans-serif;
+     }
+     .container{
+          margin: 0px auto;
+          padding: 0px 20px;
+          width: 1200px;
+     }
      .visually-hidden{
           position: absolute;
           width: 1px;
@@ -79,16 +89,6 @@
      .input-control:checked  .content2{
           color: #A6A6A6; 
           color: black;
-     }
-     body{
-          margin: 0;
-          padding: 0;
-          font-family: 'Rubik', sans-serif;
-     }
-     .container{
-          margin: 0px auto;
-          padding: 0px 20px;
-          width: 1200px;
      }
      .header-top{
           margin-bottom: 30px;
@@ -321,7 +321,7 @@
           color: #5E5F61;
      }
      .end-text4::before{
-          content: url("../img/photo\ 4.svg");
+          content: url("../img/photo4.svg");
           vertical-align: middle;
      }
      .end-text5{
@@ -341,7 +341,7 @@
           color: #5E5F61;
      }
      .end-text6::before{
-          content: url("../img/car\ img.svg");
+          content: url("../img/carimg.svg");
           vertical-align: middle;
      }
      
@@ -419,6 +419,9 @@
           font-size: 20px;
           line-height: 26px;
           color: #000000;
+     }
+     .tesla__site{
+          text-decoration: none;
      }
      .li-box__links{
           padding: 17px 322px;
@@ -581,4 +584,88 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+     }
+     .site-main__Section{
+          /* margin-bottom: 60px; */
+          padding-top: 57px;
+     }
+     .wrapper__main-section{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+     .main-section__top-logo{
+          height: 946px;
+     }
+     .wrapper__title{
+          width: 792px;
+     }
+     .all-wrapper__text{
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #000000;
+     } 
+     .all-wrapper__text + .all-wrapper__text{
+          margin-bottom: 24px;
+     }
+     .all-wrapper__Span{
+          display: block;
+          width: 100%;
+          border: 2px solid #D2D2D2;
+     }
+     .site-main___interesting{
+          margin-top: 60px;
+     }
+     .box-interest{
+          margin-top: 350px;
+     }
+     .box-interest__wrapper{
+          margin: 0 auto;
+          padding: 0 20px;
+          background: #F6F6F6;
+          border-radius: 15px;
+     }
+     .box-interest__wrapper + .box-interest__wrapper{
+          margin-left: 10px;
+     }
+     .box-interest__title{
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+          color: #000000;
+     }
+     .box-interest__title2{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 26px;
+          color: #000000;
+     }
+     .wrapper-box_interest{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+     .interest__strong1::before{
+          content: url(../img/photo4.svg);
+          background-repeat: no-repeat;
+          vertical-align: middle;
+          margin-right: 10px;
+     }
+     .interest__strong2::before{
+          content: url(../img/L.svg);
+          background-repeat: no-repeat;
+          vertical-align: middle;
+          margin-right: 10px;
+     }
+     .interest__strong3::before{
+          content: url(../img/carimg.svg);
+          background-repeat: no-repeat;
+          vertical-align: middle;
+          margin-right: 10px;
      }
